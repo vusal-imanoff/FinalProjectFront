@@ -1,0 +1,28 @@
+.wishlist
+{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+}
+
+.open-wish
+{
+    display: none;
+}
+
+.close-wish
+{
+    display: block;
+}
+
+@media(max-width:768px)
+{
+    .wishlist
+    {
+        width: 300px;
+        right: 0%;
+    }
+}

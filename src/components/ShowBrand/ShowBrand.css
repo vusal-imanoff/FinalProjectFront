@@ -1,0 +1,71 @@
+.showbrand
+{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shower
+{
+    width: 90%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.adv
+{
+    width: 550px;
+    height: 300px;
+    border: 1px solid silver;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: white;
+}
+
+.adv img
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2312;
+}
+
+.adv h1
+{
+    padding-left: 10px;
+    z-index: 12213;
+}
+
+
+@media(max-width:900px)
+{
+    .adv
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .adv h1
+    {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+

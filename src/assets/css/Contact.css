@@ -1,0 +1,175 @@
+.contact
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.contact-img
+{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    text-align: center;
+    background-image: url("https://grandcarrentalv1.b-cdn.net/wp-content/uploads/2017/01/driver-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socials
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-title
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.network
+{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.soc
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+.fb
+{
+    background-color: #2D5F9A;
+}
+.twit
+{
+    background-color: #00C3F3;
+}
+.yt
+{
+    background-color: red;
+}
+.insta
+{
+    background-color: #405de6;
+}
+
+.frm
+{
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sec-inp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.sec-inp input
+{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.area
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.sub-contact
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sub-contact input
+{
+    width: 100px;
+    height: 50px;
+    background-color: #00C3F3;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.sub-contact input:hover
+{
+    background-color: #06b19a;
+    transition: 0.3s;
+}
+
+.err
+{
+    color: red;
+}
+
+@media(max-width:900px)
+{
+    .contact-img
+    {
+        height: 250px;
+    }
+    .contact-img h1
+    {
+        font-size: 25px;
+    }
+    .cnt-p
+    {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+

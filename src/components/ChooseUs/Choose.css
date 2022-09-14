@@ -1,0 +1,64 @@
+.choose
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5856d6;
+    color: white;
+}
+
+.choose h1
+{
+    font-size: 50px;
+}
+
+.ch-cards
+{
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ch-card
+{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.fa-car-side,
+.fa-face-smile,
+.fa-heart
+{
+    font-size: 50px;
+}
+
+
+@media(max-width:900px)
+{
+    .choose
+    {
+        height: auto;
+    }
+    .ch-cards
+    {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .ch-card
+    {
+        margin: 5px 0;
+    }
+}
